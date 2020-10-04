@@ -1,5 +1,6 @@
 @font-face {
     font-family: "LAMEBRAINS";
+    src:url(LAMEBRAINS.ttf);
 }
 body {
     font-family: LAMEBRAINS;
