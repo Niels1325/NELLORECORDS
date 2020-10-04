@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "LAMEBRAINS";
+}
+body {
+    font-family: LAMEBRAINS;
+    scroll-behavior: smooth;
+    padding: 25px;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    margin: 0;
+    background-image: linear-gradient(black, #151D2C);
+    background-attachment: fixed;
+    height: 100%;
+}
+
+p {
+    text-align: center;
+    font-size: 48px;
+}
+
+.nav {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 5%;
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    position: fixed;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    font-family: LAMEBRAINS;
+    background-color: black;
+    display: inline;
+}
+
+li {
+    float: none;
+    display: inline-block;
+    invert(100%)
+}
+
+li a {
+    font-size: 12px;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 32px;
+    text-decoration: none;
+    invert(100%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+h1 {
+    font-family: LAMEBRAINS;
+    font-size: 169px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+img {
+    margin: 0;
+    padding-top: 5%;
+    width: 24px;
+    height: 24px;
+    color: white;
+    filter: invert(100%);
+}
+
+.dark-mode {
+    background-image: linear-gradient(white, #E7E7E7);
+    background-color: white;
+    color: black;
+}
+
+.invert img {
+    filter: invert(0%);
+}
+
+.invert li {
+    filter: invert(100%);
+}
+
+.invert ul {
+    background-color: white;
+}
+
+btn {
+
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+button {
+
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}
+
+p1 {
+    font-family: Arial;
+    font-size: 11px;
+    text-align: center;
+}
+
+.footer {
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 3%;
+}
