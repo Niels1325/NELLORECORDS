@@ -34,12 +34,17 @@
     </script>
 </div>
 
+<div class="middle" id="middle">
+
+    <p>Launching Soon...</p>
+
+</div>
 
 
 
 <div id="footer" class="footer">
     <footer>
-    <p1>Copyright @ 2020, NeLLo.</p1>
+        <p1>Copyright @ 2020, NeLLo.</p1>
     </footer>
 </div>
 
