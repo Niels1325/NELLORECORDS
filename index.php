@@ -11,7 +11,7 @@
 
 <div class="nav">
     <ul>
-        <li><a href="index.php">HOME</a></li>
+        <li><a href="#HOME">HOME</a></li>
         <li><a href="#ABOUT">ABOUT</a></li>
         <li><a href="#CONTACT">CONTACT</a></li>
     </ul>
