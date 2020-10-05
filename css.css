@@ -45,6 +45,7 @@ p1 {
     text-align: center;
     padding: 0;
     position: fixed;
+    background-color: black;
 }
 
 
@@ -148,4 +149,7 @@ p1 {
     width: 100%;
     text-align: center;
     padding-bottom: 3%;
+}
+
+.header {
 }
