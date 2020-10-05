@@ -19,8 +19,8 @@
 
 <div class="nav">
     <ul>
-        <li><a href="#HOME">HOME</a></li>
-        <li><a href="#ABOUT">ABOUT</a></li>
+        <li><a href="index.md">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
         <li><a href="#CONTACT">CONTACT</a></li>
     </ul>
 </div>
