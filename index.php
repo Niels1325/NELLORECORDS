@@ -5,6 +5,14 @@
     <meta charset="UTF-8">
     <title>NeLLo Records</title>
     <link rel="stylesheet" href="css.css">
+    <meta property="og:title" content="NeLLo Records">
+    <meta property="og:description" content="Official NeLLo Records Website">
+    <meta property="og:image" itemprop="image" content="NeLLoLogo.jpg">
+    <meta property="og:url" content="https://nellorecords.com">
+    <meta name="twitter:image" content="NeLLoLogo.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:site_name" content="NeLLo Records">
+    <meta name="twitter:image:alt" content="WhiteNeLLoLogo">
 </head>
 <body>
 
