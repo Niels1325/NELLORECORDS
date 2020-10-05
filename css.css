@@ -121,6 +121,10 @@ img {
     filter: invert(100%);
 }
 
+.invert p {
+    filter: invert(100%);
+}
+
 btn {
 
     background: transparent;
