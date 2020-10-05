@@ -22,6 +22,10 @@ p {
     color: white;
 }
 
+.invert p {
+    filter: invert(100%);
+}
+
 .nav {
     top: 0;
     bottom: 0;
