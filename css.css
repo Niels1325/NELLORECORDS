@@ -118,7 +118,7 @@ img {
 }
 
 .invert nav {
-    filter: invert(100%);
+    background-color: white;
 }
 
 .invert footer {
