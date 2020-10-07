@@ -167,11 +167,11 @@ p1 {
 
 .middle2 {
 
-    background-color: #373737;
     width: 50%;
     height: 100%;
     border-radius: 25px;
     box-shadow: 20px 20px 10px black;
+    background-image: linear-gradient(to bottom right, white, #373737);
 
 }
 
@@ -182,8 +182,9 @@ p1 {
 p4 {
     text-align: center;
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: black;
     width: 100%;
 }
 
@@ -206,7 +207,7 @@ p4 {
     color: black;
 }
 
-.input-field {
+.if {
     width: 70%;
     height: 250px;
     border-radius: 2px;
@@ -214,10 +215,14 @@ p4 {
     border: #e0dfdf 1px solid;
     box-sizing: border-box;
     margin-top: 2px;
+    box-shadow: 5px 5px 3px black;
+
 }
 
-.span-field {
+.sf {
     font-family: 'Montserrat', sans-serif;
     font-size: small;
     text-decoration: none;
+    box-shadow: 1px 1px 1px black;
 }
+
