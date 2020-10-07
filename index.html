@@ -24,7 +24,7 @@
     <ul>
         <li><a href="index.html">HOME</a></li>
         <li><a href="about.html">ABOUT</a></li>
-        <li><a href="#CONTACT">CONTACT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
     </ul>
 </div>
 <div class="dark-mode-btn">

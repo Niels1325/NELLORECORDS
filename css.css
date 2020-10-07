@@ -5,7 +5,7 @@
 body {
     font-family: LAMEBRAINS;
     scroll-behavior: smooth;
-    padding: 25px;
+    padding: 0;
     background-color: black;
     color: white;
     font-size: 24px;
@@ -87,9 +87,7 @@ h1 {
     font-family: LAMEBRAINS;
     font-size: 169px;
     text-align: center;
-    margin-top: 3%;
-    padding-bottom: 0;
-    margin-bottom: 5%;
+    margin: 0;
 }
 
 img {
@@ -99,6 +97,8 @@ img {
     height: 24px;
     color: white;
     filter: invert(100%);
+    padding: 25px;
+    text-decoration: none;
 }
 
 .dark-mode {
@@ -162,4 +162,60 @@ p1 {
 }
 
 .header {
+}
+
+
+.middle2 {
+
+    background-color: #4F4F4F;
+    width: 50%;
+    height: 350px;
+
+}
+
+.invert .middle2 {
+    filter: invert(100%);
+}
+
+p4 {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    width: 100%;
+}
+
+.cbtn {
+    border-radius: 4px;
+    background-color: black;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.cbtn:hover {
+    background-color: white;
+    color: black;
+}
+
+.input-field {
+    width: 70%;
+    height: 250px;
+    border-radius: 2px;
+    padding: 10px;
+    border: #e0dfdf 1px solid;
+    box-sizing: border-box;
+    margin-top: 2px;
+}
+
+.span-field {
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    text-decoration: none;
 }
