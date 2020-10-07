@@ -32,7 +32,7 @@
 </div>
 <div class="header" id="header">
 
-    <h1>NeLLo</h1>
+    <h1>NeLLo Records</h1>
 
 
     <script>
