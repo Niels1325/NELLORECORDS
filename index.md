@@ -14,8 +14,8 @@
     <meta property="og:site_name" content="NeLLo Records">
     <meta name="twitter:image:alt" content="https://nellorecords.com/WhiteNeLLoLogo.jpg">
     <link rel="icon"
-          type="image/ico"
-          href="http://www.nellorecords.com/favicon.ico">
+          type="image/jpg"
+          href="http://www.nellorecords.com/NeLLoIcon.jpg">
 </head>
 <body>
 
