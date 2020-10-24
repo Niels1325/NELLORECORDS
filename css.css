@@ -69,7 +69,7 @@ li {
 }
 
 li a {
-    font-size: 12px;
+    font-size: 18px;
     color: white;
     display: block;
     text-align: center;
@@ -77,17 +77,31 @@ li a {
     text-decoration: none;
     invert(100%);
     font-family: 'Montserrat', sans-serif;
+    transition-duration: 0.5s;
+    animation: .8s shake infinite alternate;
+
+}
+
+@keyframes shake {
+    0% { transform: skewX(-15deg); }
+    5% { transform: skewX(15deg); }
+    10% { transform: skewX(-15deg); }
+    15% { transform: skewX(15deg); }
+    20% { transform: skewX(0deg); }
+    100% { transform: skewX(0deg); }
+}
+
+li a:hover {
+    color: gray
 }
 
 a {
     color: white;
 }
 
-
-
 h1 {
     font-family: LAMEBRAINS;
-    font-size: 169px;
+    font-size: 100px;
     text-align: center;
     font-weight: 400;
     margin: 0;

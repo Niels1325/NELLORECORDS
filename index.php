@@ -32,7 +32,7 @@
 </div>
 <div class="header" id="header">
 
-    <h1>NeLLo Records</h1>
+    <h1>NeLLo <br>Records</h1>
 
 
     <script>
@@ -44,20 +44,24 @@
         }
     </script>
 </div>
+<br>
+
 <center>
-    <div class="middle" id="middle">
+<div class="middle" id="middle">
 
-        <p>Launching Soon... <br> Listen to NeLLo's most recent beats:</p>
+    <p>Launching Soon... <br> Listen to NeLLo's most recent beats:</p>
+    <br>
+    <iframe width="30%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/904923013&color=%230c0c0c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lilnello" title="NeLLo" target="_blank" style="color: #cccccc; text-decoration: none;">NeLLo</a> · <a href="https://soundcloud.com/lilnello/pharaoh-gang-v2" title="PHARAOH GANG V2" target="_blank" style="color: #cccccc; text-decoration: none;">PHARAOH GANG V2</a>
+    <br>
+    <iframe width="30%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/805537324&color=%23bc043c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lilnello" title="NeLLo" target="_blank" style="color: #cccccc; text-decoration: none;">NeLLo</a> · <a href="https://soundcloud.com/lilnello/nowhere-to-go" title="Nowhere To Go" target="_blank" style="color: #cccccc; text-decoration: none;">Nowhere To Go</a>
 
-        <iframe width="30%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/904923013&color=%239c9c9c&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lilnello" title="NeLLo" target="_blank" style="color: #cccccc; text-decoration: none;">NeLLo</a> · <a href="https://soundcloud.com/lilnello/pharaoh-gang-v2" title="PHARAOH GANG V2" target="_blank" style="color: #cccccc; text-decoration: none;">PHARAOH GANG V2</a></div>
-
-    </div>
+</div>
 </center>
 
 
 <div id="footer" class="footer">
     <footer>
-        <p1>Copyright @ 2020, NeLLo.</p1>
+    <p1>Copyright @ 2020, NeLLo.</p1>
     </footer>
 </div>
 
