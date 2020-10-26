@@ -123,6 +123,11 @@ h1 {
     margin: 0;
 }
 
+.dark-mode-btn {
+    outline: none;
+    border: none;
+}
+
 img {
     margin: 0;
     padding-top: 5%;
@@ -132,6 +137,8 @@ img {
     filter: invert(100%);
     padding: 25px;
     text-decoration: none;
+    outline: none;
+    border: none;
 }
 
 .dark-mode {
@@ -142,6 +149,8 @@ img {
 
 .invert img {
     filter: invert(0%);
+    outline: none;
+    border: none;
 }
 
 .invert li {
