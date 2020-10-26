@@ -69,7 +69,7 @@ li {
 }
 
 li a {
-    font-size: 18px;
+    font-size: 16px;
     color: white;
     display: block;
     text-align: center;
@@ -79,6 +79,21 @@ li a {
     font-family: 'Montserrat', sans-serif;
     transition-duration: 0.5s;
     animation: .8s shake infinite alternate;
+
+}
+
+.scl-btn1:hover {
+    background: linear-gradient(90deg, rgba(254,218,117,1) 0%, rgba(250,126,30,1) 20%, rgba(214,41,118,1) 40%, rgba(150,47,191,1) 80%, rgba(79,91,213,1) 100%);
+
+}
+
+.scl-btn2:hover {
+    background: linear-gradient(0deg, rgba(255,51,0,1) 0%, rgba(255,136,0,1) 100%);
+
+}
+
+.scl-btn3:hover {
+    background: linear-gradient(90deg, rgba(254,218,117,1) 0%, rgba(250,126,30,1) 20%, rgba(214,41,118,1) 40%, rgba(150,47,191,1) 80%, rgba(79,91,213,1) 100%);
 
 }
 
@@ -94,6 +109,14 @@ li a {
 li a:hover {
     color: gray
 }
+
+.scl-btn1, .scl-btn2, .scl-btn3 {
+    color: white;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+    background: black;
+}
+
 
 a {
     color: white;
@@ -182,6 +205,10 @@ p1 {
 }
 
 
+.middle {
+    padding-bottom: 17rem;
+}
+
 .middle2 {
 
     width: 50%;
@@ -189,6 +216,7 @@ p1 {
     border-radius: 25px;
     box-shadow: 20px 20px 10px black;
     background-image: linear-gradient(to bottom right, white, #373737);
+    padding-bottom: 60rem;
 
 }
 
@@ -243,3 +271,78 @@ p4 {
     box-shadow: 1px 1px 1px black;
 }
 
+.footer-container {
+    background: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 4rem;
+}
+
+.container {
+    width: 80%;
+    height: 40vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-heading h5 {
+    margin-bottom: 1rem;
+}
+
+.footer-heading a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-size: 16px;
+}
+
+.footer-heading a:hover {
+    color: red;
+    transition: 0.5s ease-out;
+}
+
+.footer-email-form {
+    margin-bottom: 2rem;
+}
+
+#footer-email {
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#footer-email::placeholder {
+    color: #949494;
+}
+
+#footer-email-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    outline: none;
+    border: none;
+}
+
+#footer-email-btn:hover {
+    color: white;
+    background: red;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
