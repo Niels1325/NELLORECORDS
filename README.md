@@ -1,3 +1,3 @@
-# nellorecords.github.io
+# nellorecords
 
 This is my website for NeLLoRecords.com
