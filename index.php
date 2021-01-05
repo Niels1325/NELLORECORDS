@@ -8,28 +8,38 @@
     <link rel="stylesheet" href="css.css">
     <meta property="og:title" content="NeLLo Records">
     <meta property="og:description" content="Official NeLLo Records Website">
-    <meta property="og:image" itemprop="image" content="https://nellorecords.com/NeLLoRecordsLogo.jpg">
+    <meta property="og:image" itemprop="image" content="https://nellorecords.com/images/NeLLoRecordsLogo.jpg">
     <meta property="og:url" content="https://nellorecords.com">
-    <meta name="twitter:image" content="https://nellorecords.com/NeLLoRecordsLogo.jpg">
+    <meta name="twitter:image" content="https://nellorecords.com/images/NeLLoRecordsLogo.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta property="og:site_name" content="NeLLo Records">
-    <meta name="twitter:image:alt" content="https://nellorecords.com/WhiteNeLLoLogo.jpg">
+    <meta name="twitter:image:alt" content="https://nellorecords.com/images/WhiteNeLLoLogo.jpg">
     <link rel="icon"
           type="image/jpg"
           href="http://www.nellorecords.com/NeLLoIcon.jpg">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+    </style>
 </head>
 <body>
 
 
 <div class="nav">
-    <ul>
+    <ul class="nav-links">
         <li><a href="index.html">HOME</a></li>
         <li><a href="about.html">ABOUT</a></li>
         <li><a href="contact.html">CONTACT</a></li>
     </ul>
+    <div class="dropdown">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
 </div>
+<script src="app.js"></script>
+
 <div class="dark-mode-btn">
-    <button class="btn" onclick="myFunction()"><img src="moon.png"/></button>
+    <button class="btn" onclick="myFunction()"><img src="images/moon.png"/></button>
 </div>
 <div class="header" id="header">
 
@@ -48,22 +58,27 @@
 <br>
 
 <center>
-<div class="middle" id="middle">
-
-    <p>Launching Soon... <br> Listen to NeLLo's most recent beats:</p>
-    <br>
-    <iframe width="30%" height="120" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/904923013&color=%230c0c0c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lilnello" title="NeLLo" target="_blank" style="color: #cccccc; text-decoration: none;">NeLLo</a> · <a href="https://soundcloud.com/lilnello/pharaoh-gang-v2" title="PHARAOH GANG V2" target="_blank" style="color: #cccccc; text-decoration: none;">PHARAOH GANG V2</a>
-    <br>
-    <iframe width="30%" height="120" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/805537324&color=%23bc043c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lilnello" title="NeLLo" target="_blank" style="color: #cccccc; text-decoration: none;">NeLLo</a> · <a href="https://soundcloud.com/lilnello/nowhere-to-go" title="Nowhere To Go" target="_blank" style="color: #cccccc; text-decoration: none;">Nowhere To Go</a>
-    <br>
-    <iframe width="30%" height="120" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/917935379&color=%23c4c4c4&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lilnello" title="NeLLo" target="_blank" style="color: #cccccc; text-decoration: none;">NeLLo</a> · <a href="https://soundcloud.com/lilnello/hot-water" title="Hot Water" target="_blank" style="color: #cccccc; text-decoration: none;">Hot Water</a>
-    </div>
+    <div class="middle" id="middle">
+        <iframe id="ytplayer" type="text/html" width="800" height="480"
+                src="https://www.youtube.com/embed/zTV43RdgyOA?autoplay"
+                frameborder="0"></iframe>
+        <p>Launching Soon... </p> <p2>Listen to NeLLo's most recent beats:</p2><br> <br>
+        <iframe class="Iframe-SCD" width="30%" height="120" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/954168823&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lilnello" title="NeLLo" target="_blank" style="color: #cccccc; text-decoration: none;"></a> <a href="https://soundcloud.com/lilnello/meruem" title="MERUEM" target="_blank" style="color: #cccccc; text-decoration: none;"></a>
+            <br>
+            <iframe class="Iframe-SCD" width="30%" height="120" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/949425715&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lilnello" title="NeLLo" target="_blank" style="color: #cccccc; text-decoration: none;"></a> <a href="https://soundcloud.com/lilnello/old-school-vibes" title="Old School Vibes" target="_blank" style="color: #cccccc; text-decoration: none;"></a>
+                <br>
+                <iframe class="Iframe-SCD" width="30%" height="120" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/904923013&color=%230c0c0c&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lilnello" title="NeLLo" target="_blank" style="color: #cccccc; text-decoration: none;"></a> <a href="https://soundcloud.com/lilnello/pharaoh-gang-v2" title="PHARAOH GANG V2" target="_blank" style="color: #cccccc; text-decoration: none;"></a>
+                    <br>
+                    <iframe class="Iframe-SCD" width="30%" height="120" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/805537324&color=%23bc043c&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lilnello" title="NeLLo" target="_blank" style="color: #cccccc; text-decoration: none;"></a> <a href="https://soundcloud.com/lilnello/nowhere-to-go" title="Nowhere To Go" target="_blank" style="color: #cccccc; text-decoration: none;"></a>
+                        <br>
+                        <iframe class="Iframe-SCD" width="30%" height="120" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/917935379&color=%23c4c4c4&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lilnello" title="NeLLo" target="_blank" style="color: #cccccc; text-decoration: none;"></a> <a href="https://soundcloud.com/lilnello/hot-water" title="Hot Water" target="_blank" style="color: #cccccc; text-decoration: none;"></a>
+                        </div>
 </center>
-
+<br>
 
 <div id="footer" class="footer">
     <footer>
-    <p1>Copyright @ 2020, NeLLo.</p1>
+        <p1>Copyright @ 2020, NeLLo.</p1>
     </footer>
 </div>
 
