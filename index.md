@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>NeLLo Records</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="styles.css">
     <meta property="og:title" content="NeLLo Records">
     <meta property="og:description" content="Official NeLLo Records Website">
     <meta property="og:image" itemprop="image" content="https://nellorecords.com/images/NeLLoRecordsLogo.jpg">
