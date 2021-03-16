@@ -26,9 +26,9 @@
 
 <div class="nav">
     <ul class="nav-links">
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="index">HOME</a></li>
+        <li><a href="about">ABOUT</a></li>
+        <li><a href="contact">CONTACT</a></li>
     </ul>
     <div class="dropdown">
         <div class="line1"></div>
