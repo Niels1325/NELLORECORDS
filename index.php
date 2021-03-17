@@ -1,109 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <title>NeLLo Records</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <meta property="og:title" content="NeLLo Records">
-    <meta property="og:description" content="Official NeLLo Records Website">
-    <meta property="og:image" itemprop="image" content="https://nellorecords.com/images/NeLLoRecordsLogo.jpg">
-    <meta property="og:url" content="https://nellorecords.com">
-    <meta name="twitter:image" content="https://nellorecords.com/images/NeLLoRecordsLogo.jpg">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="og:site_name" content="NeLLo Records">
-    <meta name="twitter:image:alt" content="https://nellorecords.com/images/WhiteNeLLoLogo.jpg">
-    <link rel="icon"
-          type="image/ico"
-          href="http://www.nellorecords.com/images/favicon.ico">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-    </style>
-</head>
+<title>Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/ico" href="images/favicon.ico/">
+<style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+    .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+    .fa-address-card, .fa-unlock, .fa-music, .fa-shopping-cart {font-size:200px}
+</style>
 <body>
 
+<!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-black w3-card w3-left-align w3-large">
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white nav-btn">Home</a>
+        <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white nav-btn">About</a>
+        <a href="#beats" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white nav-btn">Beats</a>
+        <a href="#projects" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white nav-btn">Projects</a>
+        <a href="#store" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white nav-btn">Store</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white nav-btn">Contact</a>
+    </div>
 
-<div class="nav">
-    <ul class="nav-links">
-        <li><a href="index">HOME</a></li>
-        <li><a href="about">ABOUT</a></li>
-        <li><a href="contact">CONTACT</a></li>
-    </ul>
-    <div class="dropdown">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+        <a href="#about" onclick="clicked()" class="w3-bar-item w3-button w3-padding-large">About</a>
+        <a href="#projects" onclick="clicked()" class="w3-bar-item w3-button w3-padding-large">Projects</a>
+        <a href="#beats" onclick="clicked()" class="w3-bar-item w3-button w3-padding-large">Beats</a>
+        <a href="#store" onclick="clicked()" class="w3-bar-item w3-button w3-padding-large">Store</a>
+        <a href="#contact" onclick="clicked()" class="w3-bar-item w3-button w3-padding-large">Contact</a>
     </div>
 </div>
-<script src="app.js"></script>
 
-<div class="dark-mode-btn">
-    <button class="btn" onclick="myFunction()"><img src="images/moon.png"/></button>
-</div>
-<div class="header" id="header">
+<!-- Header -->
+<header class="w3-container w3-black w3-center header" style="padding:128px 16px">
+    <h1 class="w3-margin" style="font-family: LAMEBRAINS, sans-serif;font-size: 72px; text-shadow: 2px 2px 4px black;">NeLLo <br> Records</h1>
+    <p class="w3-xlarge"></p>
+    <a class="buy-btn" href="store">BUY BEATS NOW!</a>
+</header>
 
-    <h1>NeLLo <br>Records</h1>
+<!-- First Grid -->
+<div id="about" class="w3-row-padding w3-padding-64 w3-container">
+    <div class="w3-content">
+        <div class="w3-twothird">
+            <h1><b>About</b></h1>
+            <h5 class="w3-padding-16">What is NeLLo Records and who are we?</h5>
 
+            <p class="w3-text-grey">NeLLo Records is a record label company that started making music that is made for people who <br> love music!
+                We make music video's and we produce music itself.
+                We are working with a couple of artists & producers right now such as: <br><br> <a class="socialbtn" href="https://www.youtube.com/watch?v=dIPixEva63o" target="_blank">DR!PD</a> — <a class="socialbtn" href="https://www.youtube.com/watch?v=zTV43RdgyOA" target="_blank">STEFFAX</a> — <a class="socialbtn" href="https://www.youtube.com/watch?v=lVBFiotFUlM" target="_blank">DON</a> — <a class="socialbtn" href="https://soundcloud.com/user-990548504" target="_blank">ERICH</a>
+                <br><br> And finding more talents as always!
+            </p>
+        </div>
 
-    <script>
-        function myFunction() {
-            var element = document.body;
-            element.classList.toggle("dark-mode");
-            element.classList.toggle("invert");
-
-        }
-    </script>
-</div>
-<br>
-
-<center>
-    <div class="middle" id="middle">
-        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="854.4" height="480" type="text/html" src="https://www.youtube.com/embed/Xod6i8G9Zgk?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com"><div><small><a href="https://youtubeembedcode.com/de/">https://youtubeembedcode.com/de/</a></small></div><div><small><a href="https://sallybernstein.com/">guaranteed web traffic to your site</a></small></div><div><small><a href="https://youtubeembedcode.com/de/">https://youtubeembedcode.com/de/</a></small></div><div><small><a href="http://www.magpress.com/">free website traffic software</a></small></div><div><small><a href="https://youtubeembedcode.com/en/">https://youtubeembedcode.com/en/</a></small></div><div><small><a href="https://www.theparacast.com/">how to get traffic to your website for free</a></small></div><div><small><a href="https://youtubeembedcode.com/de/">https://youtubeembedcode.com/de/</a></small></div><div><small><a href="http://www.icyphoenix.com/">buy targeted traffic that converts</a></small></div></iframe>
-        <p>Launching Soon... </p> <p>Listen to NeLLo's most recent beats:</p><br> <br>
-        <iframe class="Iframe-SCD" width="30%" height="120" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/954168823&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lilnello" title="NeLLo" target="_blank" style="color: #cccccc; text-decoration: none;"></a> <a href="https://soundcloud.com/lilnello/meruem" title="MERUEM" target="_blank" style="color: #cccccc; text-decoration: none;"></a>
-            <br>
-            <iframe class="Iframe-SCD" width="30%" height="120" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/949425715&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lilnello" title="NeLLo" target="_blank" style="color: #cccccc; text-decoration: none;"></a> <a href="https://soundcloud.com/lilnello/old-school-vibes" title="Old School Vibes" target="_blank" style="color: #cccccc; text-decoration: none;"></a>
-                <br>
-                <iframe class="Iframe-SCD" width="30%" height="120" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/904923013&color=%230c0c0c&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lilnello" title="NeLLo" target="_blank" style="color: #cccccc; text-decoration: none;"></a> <a href="https://soundcloud.com/lilnello/pharaoh-gang-v2" title="PHARAOH GANG V2" target="_blank" style="color: #cccccc; text-decoration: none;"></a>
-                    <br>
-                    <iframe class="Iframe-SCD" width="30%" height="120" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/805537324&color=%23bc043c&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lilnello" title="NeLLo" target="_blank" style="color: #cccccc; text-decoration: none;"></a> <a href="https://soundcloud.com/lilnello/nowhere-to-go" title="Nowhere To Go" target="_blank" style="color: #cccccc; text-decoration: none;"></a>
-                        <br>
-                        <iframe class="Iframe-SCD" width="30%" height="120" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/917935379&color=%23c4c4c4&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lilnello" title="NeLLo" target="_blank" style="color: #cccccc; text-decoration: none;"></a> <a href="https://soundcloud.com/lilnello/hot-water" title="Hot Water" target="_blank" style="color: #cccccc; text-decoration: none;"></a>
-                        </div>
-</center>
-<br>
-
-<div id="footer" class="footer">
-    <footer>
-        <p1>Copyright @ 2020, NeLLo.</p1>
-    </footer>
+        <div class="w3-third w3-center">
+            <iframe id="video" class="video" width="560" height="315" src="https://www.youtube.com/embed/dIPixEva63o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
 </div>
 
+<!-- Second Grid -->
+<div id="beats" class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+    <div class="w3-content">
+        <div class="w3-third w3-center">
+            <i class="fa fa-music w3-padding-64 w3-text-black w3-margin-right"></i>
+        </div>
+
+        <div class="w3-twothird">
+            <h1><b>Beats</b></h1>
+            <h5 class="w3-padding-32">To listen to beats we've made go <b><a href="beats.html">here!</a></b></h5>
+            <p class="w3-text-grey"></p>
+        </div>
+    </div>
+</div>
+
+<!-- Third Grid -->
+<div id="projects" class="w3-row-padding w3-padding-64 w3-container">
+    <div class="w3-content">
+        <div class="w3-twothird">
+            <h1><b>Projects</b></h1><br> <br> <br>
+            <a class="buy-btn w3-padding-16 seemore" href="beats.html">SEE MORE</a>
+            <h5 class="w3-padding-16"></h5>
+
+            <p class="w3-text-grey">
+            </p>
+        </div>
+
+        <div class="w3-third w3-center">
+            <i class="fa fa-unlock"></i>
+        </div>
+    </div>
+</div>
+
+<!-- Fourth Grid -->
+<div id="store" class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+    <div class="w3-content">
+        <div class="w3-third w3-center">
+            <i class="fa fa-shopping-cart w3-padding-64 w3-text-black w3-margin-right"></i>
+        </div>
+
+        <div class="w3-twothird">
+            <h1><b>Store</b></h1>
+            <h5 class="w3-padding-32">You can buy and find all products <b><a href="store">here!</a></b></h5>
+
+            <p class="w3-text-grey"></p>
+        </div>
+    </div>
+</div>
+
+<!-- Fifth Grid -->
+<div id="contact" class="w3-row-padding w3-padding-64 w3-container">
+    <div class="w3-content">
+        <div class="w3-twothird">
+            <h1><b>Contact</b></h1>
+            <h5 class="w3-padding-32">For any bussiness or any contact what so ever:</h5>
+
+            <p class="w3-text-grey">You can send us an email: <b> officialnellorecords@gmail.com </b></p>
+        </div>
+
+        <div class="w3-third w3-center">
+            <i class="fa fa-address-card w3-padding-64 w3-text-black w3-margin-right"></i>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
 <div class="footer-container">
     <div class="container">
         <div class="footer-heading footer-1">
-            <h5>About Us</h5>
+            <h5><b>About Us</b></h5>
             <a href="#">FAQ</a>
             <a href="#">Terms of Service</a>
         </div>
         <div class="footer-heading footer-2">
-            <h5>Social Media</h5>
+            <h5><b>Social Media</b></h5>
             <a href="https://www.youtube.com/channel/UCjkcb95whu_-itrbjO6mepQ/" target="_blank">Youtube</a>
             <a href="https://www.instagram.com/NeLLoRecords/" target="_blank">Instagram</a>
             <a href="https://twitter.com/NeLLoRecords" target="_blank">Twitter</a>
         </div>
         <div class="footer-heading footer-3">
-            <h5>Contact Us</h5>
-            <a href="contact.html">Contact</a>
+            <h5><b>Contact Us</b></h5>
+            <a href="#contact">Contact</a>
         </div>
         <div class="footer-email-form">
-            <h5>Join our newsletter</h5>
+            <h5><b>Join our newsletter</b></h5>
             <input type="email" placeholder="Enter your email adress" id="footer-email">
             <input type="submit" value="Sign Up" id="footer-email-btn">
         </div>
     </div>
 </div>
+
+<script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+</script>
 
 </body>
 </html>
