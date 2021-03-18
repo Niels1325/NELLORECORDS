@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <title>Home</title>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="NeLLo Records Official Website, Buy your quality beats here!"/>
+<meta property="og:title" content="NeLLo Records"/>
+<meta property="og:description" content="NeLLo Records Official Website, Buy your quality beats here!">
+<meta property="og:image" itemprop="image" content="nellorecords.com/images/nellorecords.png">
+<meta property="og:url" content="https://nellorecords.com">
+<meta name="twitter:image" content="https://nellorecords.com/images/nellorecords.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:site_name" content="NeLLo Records">
+
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="icon" type="image/ico" href="images/favicon.ico/">
+
 <style>
     body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
@@ -53,8 +64,8 @@
             <h5 class="w3-padding-16">What is NeLLo Records and who are we?</h5>
 
             <p class="w3-text-grey">NeLLo Records is a record label company that started making music that is made for people who <br> love music!
-            We make music video's and we produce music itself.
-            We are working with a couple of artists & producers right now such as: <br><br> <a class="socialbtn" href="https://www.youtube.com/watch?v=dIPixEva63o" target="_blank">DR!PD</a> — <a class="socialbtn" href="https://www.youtube.com/watch?v=zTV43RdgyOA" target="_blank">STEFFAX</a> — <a class="socialbtn" href="https://www.youtube.com/watch?v=lVBFiotFUlM" target="_blank">DON</a> — <a class="socialbtn" href="https://soundcloud.com/user-990548504" target="_blank">ERICH</a>
+            We make music video's and we produce music itself. We also provide beats and more in the <a href="#store">store</a>.
+            We are working with a couple of artists & producers right now such as: <br><br> <a class="socialbtn" href="https://www.youtube.com/watch?v=dIPixEva63o" target="_blank">DR!PD</a> — <a class="socialbtn" href="https://www.youtube.com/watch?v=zTV43RdgyOA" target="_blank">STEFFAX</a> — <a class="socialbtn" href="https://www.youtube.com/watch?v=lVBFiotFUlM" target="_blank">DON</a> — <a class="socialbtn" href="https://www.instagram.com/erik.stappenbelt/" target="_blank">ERICH</a> — <a class="socialbtn" href="https://www.instagram.com/prodnello/" target="_blank">NELLO</a> (Founder)
             <br><br> And finding more talents as always!
             </p>
         </div>
